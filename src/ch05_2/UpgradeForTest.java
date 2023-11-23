@@ -13,11 +13,12 @@ public class UpgradeForTest {
 //		}
 		// 파이썬문법: for i in arr1;
 		
-		for(int value:arr1) {
+		for(int value:arr1) { // 향상된 for문
 			sum = sum + value;
 		}
 		
-		
+		boolean[] arrBool1 = {false,true,true};
+		boolean[] arrBool2 = new boolean[3];
 		
 		System.out.println(sum);
 		
